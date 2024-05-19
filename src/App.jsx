@@ -8,7 +8,9 @@ import './App.css'
 export const App = () => {
   return (
     <div>
-      <header style={style.header}>LTime</header>
+      <header>
+        <h1>LTime</h1>
+      </header>
     </div>
   )
 }
