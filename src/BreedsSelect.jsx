@@ -1,7 +1,6 @@
-import React from 'react'
 
 export const BreedsSelect = props => {
-  const { breeds, selectedBreed, onChangeBreed } = props
+  const { breeds, selectedBreed } = props
 
   return (
     <>

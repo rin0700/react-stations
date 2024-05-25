@@ -21,7 +21,7 @@ export const DogListContainer = () => {
   }, [])
 
   const clickButton = () => {
-    // console.log("test")
+    
     fetch('https://dog.ceo/api/breed/' + selectedBreed + '/images/random/12')
       .then(res => res.json())
       .then(data => {
